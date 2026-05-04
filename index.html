@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turnos | Fabiana Khairallah</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--primary:#6b8e7a;--accent:#c8a97e;--bg:#f7f5f2;--text:#2f2f2f}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Inter',sans-serif;background:var(--bg);color:var(--text)}
+
+    .container{max-width:900px;margin:auto;padding:20px}
+
+    /* HERO */
+    .hero{background:url('foto-fabiana.jpg') center/cover no-repeat;position:relative;color:#fff}
+    .hero::after{content:"";position:absolute;inset:0;background:rgba(0,0,0,.55)}
+    .hero-inner{position:relative;z-index:2;text-align:center;padding:80px 20px}
+    h1{font-family:'Playfair Display',serif;font-size:2.6em;margin:0}
+    .sub{margin-top:12px;font-size:1.15em}
+
+    .cta{display:inline-block;margin-top:22px;padding:16px 28px;background:#25D366;color:#fff;text-decoration:none;border-radius:999px;font-weight:600}
+
+    /* BLOCKS */
+    section{padding:40px 0}
+    h2{font-family:'Playfair Display',serif;margin:0 0 14px}
+
+    .benefits{display:grid;gap:14px}
+    .benefits div{background:#fff;padding:16px;border-radius:14px;box-shadow:0 6px 16px rgba(0,0,0,.06)}
+
+    .proof{background:#fff;padding:20px;border-radius:16px;box-shadow:0 6px 16px rgba(0,0,0,.06)}
+
+    .steps{display:grid;gap:10px}
+    .steps div{padding:12px 14px;background:#fff;border-radius:12px}
+
+    .locations{font-size:.95em;opacity:.9}
+
+    .sticky-cta{position:fixed;bottom:15px;left:50%;transform:translateX(-50%);background:#25D366;color:#fff;padding:14px 22px;border-radius:999px;text-decoration:none;font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.2)}
+  </style>
+</head>
+<body>
+
+<!-- HERO (PROMESA + CTA) -->
+<div class="hero">
+  <div class="hero-inner container">
+    <h1>¿Dolor, estrés o ansiedad? Tratamiento natural y efectivo</h1>
+    <div class="sub">Acupuntura, auriculoterapia y terapias integrativas personalizadas<br><strong>Turnos limitados por semana</strong></div>
+    <a class="cta" href="https://wa.me/543804360390?text=Hola%20Fabiana,%20quiero%20consultar%20por%20un%20turno" target="_blank">Reservar turno por WhatsApp</a>
+  </div>
+</div>
+
+<!-- BENEFICIOS CLAROS -->
+<section class="container">
+  <h2>¿En qué puedo ayudarte?</h2>
+  <div class="benefits">
+    <div>✔ Dolor de espalda, cuello o contracturas</div>
+    <div>✔ Estrés, ansiedad o insomnio</div>
+    <div>✔ Migrañas y dolores de cabeza</div>
+    <div>✔ Equilibrio general del organismo</div>
+  </div>
+</section>
+
+<!-- BENEFICIOS RÁPIDOS MEDICINA CHINA -->
+<section class="container">
+  <h2>Beneficios de la Medicina China</h2>
+  <div class="benefits">
+    <div>✔ Alivio del dolor desde las primeras sesiones</div>
+    <div>✔ Reduce el estrés y mejora el descanso</div>
+    <div>✔ Mejora la circulación y energía del cuerpo</div>
+    <div>✔ Tratamiento natural sin efectos secundarios</div>
+  </div>
+</section>
+
+<!-- GALERÍA VISUAL -->
+<section class="container">
+  <h2>Tratamientos</h2>
+  <div class="benefits">
+    <img src="terapia.jpg" style="width:100%;border-radius:12px">
+    <img src="auriculo.jpg" style="width:100%;border-radius:12px">
+  </div>
+</section>
+
+<!-- PRUEBA / CONFIANZA -->
+<section class="container">
+  <div class="proof">
+    <h2>Atención profesional y personalizada</h2>
+    <p>Soy Fabiana Khairallah, especialista en medicina china integrativa. Trabajo con un enfoque cercano, humano y adaptado a cada paciente.</p>
+    <img src="consulta.jpg" style="width:100%;border-radius:12px;margin-top:10px">
+  </div>
+</section>
+
+<!-- CÓMO RESERVAR -->
+<section class="container">
+  <h2>¿Cómo sacar turno?</h2>
+  <div class="steps">
+    <div>1. Escribime por WhatsApp</div>
+    <div>2. Coordinamos día y horario</div>
+    <div>3. Asistís a tu sesión personalizada</div>
+  </div>
+  <a class="cta" href="https://wa.me/543804360390?text=Hola%20Fabiana,%20quiero%20consultar%20por%20un%20turno" target="_blank">Agendar ahora</a>
+</section>
+
+<!-- UBICACIÓN -->
+<section class="container">
+  <h2>Consultorios</h2>
+  <div class="locations">
+    📍 San Nicolás de Bari Este 422<br>
+    📍 Avda. Santa Rosa 2372, La Rioja Capital
+  </div>
+</section>
+
+<a class="sticky-cta" href="https://wa.me/543804360390?text=Hola%20Fabiana,%20quiero%20consultar%20por%20un%20turno" target="_blank">💬 Reservar turno</a>
+
+</body>
+</html>
